@@ -55,17 +55,6 @@ namespace CustomMoonPriceModLC
             {
                 node.itemCost = 0;
             }
-
-            Debug.Log($"INTERCEPTED IT~!~!!");
-            Debug.Log($"Display Text: {node.displayText}");
-            Debug.Log($"Name: {node.name}");
-            Debug.Log($"Terminal Event: {node.terminalEvent}");
-            Debug.Log($"Buy Item Index: {node.buyItemIndex}");
-            Debug.Log($"Buy Reroute To Moon: {node.buyRerouteToMoon}");
-            Debug.Log($"Display Planet Info: {node.displayPlanetInfo}");
-            Debug.Log($"Item Cost: {node.itemCost}");
         }
-
-
     }
 }
